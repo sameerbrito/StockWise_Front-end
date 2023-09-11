@@ -1,0 +1,33 @@
+    
+    /* Style Scrollbar 👇 */
+    .container-table {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .container-table::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    .container-table::-webkit-scrollbar:vertical {
+        width:10px;
+    }
+    
+    .container-table::-webkit-scrollbar-button:increment,.container-table::-webkit-scrollbar-button {
+        display: none;
+    } 
+    
+    .container-table::-webkit-scrollbar:horizontal {
+        height: 10px;
+    }
+    
+    .container-table::-webkit-scrollbar-thumb {
+        background-color: #797979;
+        /* border-radius: 5px;
+        border: 2px solid #f1f2f3; */
+    }
+    
+    .container-table::-webkit-scrollbar-track {
+        /* border-radius: 5px;   */
+    }
+    /* Style Scrollbar 👆 */

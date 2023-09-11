@@ -7,7 +7,7 @@ import Header from '@components/nav/Header';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Header />}>
+    <Route path="/" element={<Header />} >
       <Route index element={<Home />} />
       <Route path="products" element={<Products />} />
       <Route path="login" element={<Login />} />

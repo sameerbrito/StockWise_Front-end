@@ -10,7 +10,7 @@ const useProducts = () => {
     getProducts()
       .then((response) => {
         setProducts(response.data);
-        console.log(response.data)
+        // console.log(response.data)
         setLoading(false);
       })
       .catch((error) => {

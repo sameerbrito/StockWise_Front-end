@@ -11,6 +11,7 @@ export default defineConfig({
       '@auth'         : new URL('src/pages/auth', import.meta.url).pathname,
       '@api'          : new URL('src/api', import.meta.url).pathname,
       '@hooks'        : new URL('src/hooks', import.meta.url).pathname,
+      '@styles'        : new URL('src/styles', import.meta.url).pathname,
     },
   },
   plugins: [react()],
